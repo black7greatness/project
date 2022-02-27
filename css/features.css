@@ -1,0 +1,183 @@
+header{
+    background:transparent;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease ;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../BG.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+}
+
+.image{
+    position: relative;
+    overflow: hidden;
+}
+
+.image.image1{
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+
+.image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section h2{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p{
+    color:white;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+.wrapper{
+    background-color: #1b252f;
+    padding: 2em 0;
+    border-top: 20px solid #ffde01;
+    border-bottom: 10px solid #ffde01;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+    padding: 2em 0;
+}
+.logo span{
+    display: inline-block;
+    background-color: #ffde01;
+    padding: 8px 35px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #1b252f;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0.6px 20px 0 rgba(0,0,0,0.19) ;
+}
+
+.content{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.social_icons{
+    text-align: center;
+    padding: 2em 0;
+}
+
+.social_icons a{
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.contact_info{
+    text-align: center;
+    padding-bottom: 2em;
+
+}
+
+.contact_info a{
+    text-decoration: none;
+    color: #ffde01;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px 20px;
+}
+
+.contact_info a i{
+    margin: 15px;
+    color: #fff;
+}
+
+.copyright{
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    padding: 4em 0 ;
+}

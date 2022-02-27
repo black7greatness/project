@@ -1,0 +1,17 @@
+body {
+  background-color: bisque;
+}
+
+.form {
+  
+ margin: 6px;
+ padding: 4px;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.navi {
+  display: flex;
+  width: auto;
+}
